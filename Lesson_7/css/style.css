@@ -1,0 +1,238 @@
+body {
+  font-family: Lato, sans-serif;
+  color: #424551;
+}
+
+/* Селектор атрибуту. Умова (*) */
+[class*="__container"] {
+  max-width: 874px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ========================================================================= */
+
+.header {
+  background: linear-gradient(90deg, #f598a8, #f6edb2);
+  /* background: linear-gradient(55.95deg, #d9afae 0%, #f75e05 100%); */
+}
+
+header {
+  font-family: "Roboto";
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: blue;
+}
+
+/* ========================================================================= */
+
+/*
+ main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+} 
+*/
+
+.layout {
+  /* background-color: white; */
+  background: linear-gradient(
+    #c6e4ee 0%,
+    #c6e4ee 40%,
+    #fed1ae 60%,
+    #faa0b9 70%,
+    #cb7dcb 80%,
+    #757ecb 100%
+  );
+}
+
+.layout__container {
+  background-color: white;
+}
+
+h1 {
+  font-family: Lato;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 59.8px;
+  margin-bottom: 40px;
+}
+
+.images {
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.images > img {
+  width: 100%;
+}
+
+.description-bold {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.description-normal {
+  font-family: Lato;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.description-normal p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-normal ul {
+  margin-bottom: 20px;
+}
+
+.description-normal ul li {
+  line-height: 1.5;
+  padding-left: 20px;
+  margin-bottom: 5px;
+}
+
+/* ========================================================================= */
+
+.experiment {
+  background-color: white;
+}
+
+.experiment__container {
+  background-color: white;
+}
+
+h2 {
+  font-family: "Larsseit";
+  font-weight: 900;
+  font-size: 46px;
+  text-align: center;
+  color: #1e212c;
+  margin: 40px;
+}
+
+h3 {
+  font-family: "Larsseit";
+  font-weight: 400;
+  font-size: 46px;
+  text-align: center;
+  color: #1e212c;
+  margin: 40px;
+}
+
+.keyboard {
+  /* background: url(../img/img_1.jpg) 95% 5% repeat; */
+  margin: 20px 0;
+  height: 100%;
+  background: url(../img/img_1.jpg) 0 0 / cover no-repeat;
+}
+
+.keyboard p {
+  text-align: justify;
+  line-height: 1.5;
+  word-wrap: break-word;
+  color: white ;
+  padding: 15px;
+}
+
+.background-keyboard {
+  background: url(../img/gamers.jpg) top left / 275px no-repeat,
+    url(../img/designers_1.jpg) top right / 275px no-repeat,
+    url(../img/designers_2.jpg) bottom left / 275px no-repeat,
+    url(../img/programmers.jpg) bottom right / 275px no-repeat;
+}
+
+.background-keyboard h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.background-keyboard ol {
+  padding: 150px 80px 150px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.background-keyboard ol ul {
+  margin-bottom: 30px;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+/* ========================================================================= */
+
+
+.experiment-one {
+  height: 150px;
+  margin-bottom: 20px;
+  background: url(../img/test/borscht.png) 0 0 / contain no-repeat, linear-gradient(90deg, rgba(16,124,137,1) 39%, rgba(0,212,255,1) 81%);
+}
+
+.experiment-two {
+  height: 150px;
+  margin-bottom: 20px;
+  background: url(../img/test/coffee.png) 0 0/ 50px repeat-x, #e02cb0;
+}
+
+.experiment-three {
+  height: 150px;
+  margin-bottom: 20px;
+  background: url(../img/test/coffee.png) 0 0/ 50px repeat-y, #e02cb0;}
+
+.experiment-four {
+  height: 150px;
+  margin-bottom: 20px;
+  background: url(../img/test/mova.png) 0 0 / contain no-repeat, linear-gradient(90deg, blue 50%, yellow 50%);
+}
+
+/* ========================================================================= */
+
+.footer {
+  background: linear-gradient(90deg, #faf0cd, #fab397);
+  /* background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%); */
+}
+
+.footer__container {
+  padding: 40px;
+  color: black;
+}
+
+/* ========================================================================= */
+
+.button_1 {
+  display: inline-block;
+  background-color: #7a956b;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+}
+
+.button_1:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
+
+.button_2 {
+  display: inline-block;
+  background-color: #7a956b;
+  padding: 15px;
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 5px 0 #000;
+  transition: all 0.3s ease 0s;
+}
+
+.button_2:hover {
+  margin-top: 3px;
+  box-shadow: 0 2px 0 #000;
+}
